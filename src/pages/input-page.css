@@ -1,0 +1,28 @@
+.inputContainer {
+    text-align: center;
+}
+
+.inputContainer>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.usageRecord {
+    width: 50rem;
+    max-width: 90%;
+    margin: 2rem auto;
+    max-height: 25rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.usageRecord>textarea {
+    width: 100%;
+}
+
+.Toastify__toast-container--top-center {
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
