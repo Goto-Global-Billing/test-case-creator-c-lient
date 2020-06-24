@@ -36,8 +36,8 @@ const ImportByReservation = props => {
                 onChange={(e) => onChangeReservationId(e.target.value)} 
             />
             <select value={ dbValue } onChange={ (e) => setDBValue(e.target.value) } className="custom-select">               
-                <option value="1">Current DB</option>
-                <option value="2">Old DB</option>
+                <option value="1">Test DB</option>
+                <option value="2">Prod DB</option>
             </select>
             <div className="input-group-append">
                 <button
